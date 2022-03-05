@@ -1,0 +1,13 @@
+.dropzone-container {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.files-container {
+  cursor: default;
+}
+
+.files-title {
+  font-size: 1em;
+  font-weight: 700;
+}

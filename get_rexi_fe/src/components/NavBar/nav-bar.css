@@ -1,0 +1,161 @@
+.nav-bar-container {
+  background-color: #fae5df;
+  height: 60px;
+  position: sticky;
+}
+
+.nav-login-btn {
+  height: 35px;
+  width: 130px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 50px;
+}
+
+.nav-login-btn:hover {
+  background-color: #494a8b;
+}
+
+.nav-login-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.hamburger-btn-container {
+  width: 27px;
+  height: 27px;
+}
+
+.hamburger-btn {
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.hamburger-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.hamburger-icon:hover {
+  width: 27px;
+  height: 27px;
+}
+
+.nav-my-pets-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.nav-my-pets-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-my-pets-icon:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-saved-pets-btn {
+  width: 31px;
+  height: 31px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.nav-saved-pets-icon {
+  width: 29px;
+  height: 29px;
+}
+
+.nav-saved-pets-icon:hover {
+  width: 31px;
+  height: 31px;
+}
+
+.nav-search-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  margin-top: 1.5px;
+}
+
+.nav-search-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-search-icon:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-logout-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  margin-top: 1.5px;
+}
+
+.nav-logout-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-logout-icon:hover {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-main-logo-icon {
+  width: 35px;
+  height: 35px;
+  color: #3a3b83;
+}
+
+.nav-hello-user-headline {
+  color: #3a3b83;
+}
+
+.nav-hello-user-headline:hover {
+  color: #fff;
+  height: 35px;
+  width: fit-content;
+  background-color: #3a3b83;
+  border-radius: 50px;
+  opacity: 80%;
+}
+
+@media only screen and (max-width: 640px) {
+  .nav-search-btn {
+    display: none !important;
+  }
+  .nav-saved-pets-btn {
+    display: none !important;
+  }
+  .nav-my-pets-btn {
+    display: none !important;
+  }
+}

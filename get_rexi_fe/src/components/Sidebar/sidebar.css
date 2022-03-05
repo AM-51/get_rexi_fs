@@ -1,0 +1,52 @@
+.sidebar-container {
+  width: 250px;
+}
+
+.title-icon {
+  width: 35px;
+  height: 35px;
+  color: #3a3b83;
+}
+
+.title-text {
+  color: #3a3b83;
+}
+
+.link {
+  color: #3a3b83 !important;
+}
+
+.link:hover {
+  color: #3a3b83 !important;
+  font-weight: 700 !important;
+}
+
+.home-icon {
+  width: 17px;
+  height: 17px;
+  margin-bottom: 3px;
+}
+
+.search-icon {
+  width: 17px;
+  height: 17px;
+  margin-bottom: 3px;
+}
+
+.profile-icon {
+  width: 17px;
+  height: 17px;
+  margin-bottom: 4px;
+}
+
+.my-pets-sidebar-icon {
+  width: 17px;
+  height: 17px;
+  margin-bottom: 4px;
+}
+
+.saved-pets-sidebar-icon {
+  width: 17px;
+  height: 17px;
+  margin-bottom: 4px;
+}

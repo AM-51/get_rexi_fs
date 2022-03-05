@@ -1,0 +1,34 @@
+.card-edit-profile-container {
+  height: fit-content;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.edit-profile-input:focus {
+  outline: none;
+}
+
+.edit-profile-btn {
+  min-width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.edit-profile-btn:hover {
+  background-color: #494a8b;
+}
+
+.edit-profile-textarea {
+  resize: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .card-edit-profile-container {
+    width: 90%;
+  }
+}

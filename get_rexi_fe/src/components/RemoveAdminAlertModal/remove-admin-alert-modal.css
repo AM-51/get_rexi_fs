@@ -1,0 +1,23 @@
+.remove-modal-btn {
+  width: 25%;
+  height: 30px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.remove-modal-btn:hover {
+  background-color: #494a8b;
+}
+
+.remove-modal-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.remove-modal-btn:active {
+  outline: none;
+  box-shadow: none;
+  transform: scale(0.99);
+}

@@ -1,0 +1,57 @@
+.modal-edit-pet-btn-container {
+  min-width: 62px;
+  height: 42px;
+}
+
+.modal-edit-pet-btn {
+  min-width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.modal-edit-pet-btn:hover {
+  min-width: 62px;
+  height: 42px;
+}
+
+.edit-pet-input:focus {
+  outline: none;
+}
+
+.select-option-edit-pet {
+  color: #3a3b83 !important;
+}
+
+.select-option-edit-pet:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.option-style-edit-pet {
+  color: #3a3b83 !important;
+}
+
+.edit-image-btn {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.edit-image-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.edit-image-icon:hover {
+  width: 28px;
+  height: 28px;
+}

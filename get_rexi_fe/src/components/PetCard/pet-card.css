@@ -1,0 +1,88 @@
+.card-pet-container {
+  width: 250px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-pet-image {
+  height: 200px;
+}
+
+.added-to-saved-pets-card {
+  position: absolute;
+  height: 25px;
+  top: 175px;
+  background-color: #494a8b;
+  color: #fff;
+  font-weight: 700;
+  align-items: center;
+}
+
+.image-placeholder {
+  height: 200px;
+  width: 250px;
+}
+
+.pet-status-badge {
+  color: #fff;
+  width: 91px;
+  font-weight: 700;
+  transform: rotate(316deg);
+  position: absolute;
+  top: 14px;
+  left: -20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.badge-bg-success {
+  background-color: #3dc438 !important;
+}
+
+.more-btn {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.more-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.more-icon:hover {
+  width: 32px;
+  height: 32px;
+}
+
+.save-btn {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.save-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.save-icon:hover {
+  width: 32px;
+  height: 32px;
+}

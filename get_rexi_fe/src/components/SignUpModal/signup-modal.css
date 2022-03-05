@@ -1,0 +1,30 @@
+/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.modal-signup-btn-container {
+  min-width: 62px;
+  height: 42px;
+}
+
+.modal-signup-btn {
+  min-width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.modal-signup-btn:hover {
+  min-width: 62px;
+  height: 42px;
+}
+
+.signup-input:focus {
+  outline: none;
+}

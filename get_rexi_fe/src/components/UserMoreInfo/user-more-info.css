@@ -1,0 +1,100 @@
+.user-more-info-container {
+  background-color: #f8f8f8;
+}
+
+.more-info-wrapper {
+  height: fit-content;
+}
+
+.remove-admin-btn {
+  width: 30%;
+  height: 30px;
+  margin-left: 2.5%;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.remove-admin-btn:hover {
+  background-color: #b42121;
+}
+
+.remove-admin-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.remove-admin-btn:active {
+  outline: none;
+  box-shadow: none;
+  transform: scale(0.99);
+}
+
+.add-admin-btn {
+  width: 24%;
+  height: 30px;
+  margin-left: 2.5%;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.add-admin-btn:hover {
+  background-color: #3dc438;
+}
+
+.add-admin-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.add-admin-btn:active {
+  outline: none;
+  box-shadow: none;
+  transform: scale(0.99);
+}
+
+.admin-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 1550px) {
+  .btn-txt {
+    display: none;
+  }
+
+  .add-admin-btn {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+  }
+
+  .remove-admin-btn {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .user-more-info-container {
+    flex-direction: column !important;
+  }
+
+  .admin-row-container {
+    justify-content: space-between;
+  }
+
+  .more-info-wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 740px) {
+  .email-row {
+    display: none;
+  }
+}

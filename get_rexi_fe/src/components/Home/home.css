@@ -1,0 +1,20 @@
+.card-container {
+  background-color: #fae5df;
+}
+
+.about-p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .home-main-img {
+    display: none;
+  }
+  .home-main-header {
+    width: 100%;
+  }
+
+  .home-main-logo {
+    display: none;
+  }
+}

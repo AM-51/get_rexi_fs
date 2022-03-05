@@ -1,0 +1,166 @@
+.card-pet-page-container {
+  width: 500px;
+  height: max-content;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-pet-page-image {
+  height: 300px;
+  background-color: #f3f3f3;
+}
+
+.added-to-saved-pets {
+  position: absolute;
+  top: 260px;
+  height: 40px;
+  background-color: #494a8b;
+  color: #fff;
+  font-weight: 700;
+  align-items: center;
+}
+
+.pet-page-image-placeholder {
+  height: 300px;
+}
+
+.pet-page-status-badge {
+  color: #fff;
+  width: 137px;
+  font-weight: 700;
+  transform: rotate(316deg);
+  position: absolute;
+  top: 30px;
+  left: -26px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.page-badge-bg-success {
+  background-color: #3dc438 !important;
+}
+
+.pet-page-save-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.pet-page-save-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.pet-page-save-icon:hover {
+  width: 42px;
+  height: 42px;
+}
+
+.adopt-now-btn {
+  width: 50%;
+  height: 65px;
+  border-bottom-left-radius: 4px;
+  border-right: solid 0.5px #fff;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.adopt-now-btn:hover {
+  background-color: #494a8b;
+}
+
+.adopt-now-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.foster-now-btn {
+  width: 50%;
+  height: 65px;
+  border-left: solid 0.5px #fff;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-bottom-right-radius: 4px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.foster-now-btn:hover {
+  background-color: #494a8b;
+}
+
+.foster-now-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.pet-page-return-btn {
+  width: 40px;
+  height: 42px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.pet-page-return-icon {
+  width: 38px;
+  height: 38px;
+}
+
+.pet-page-return-icon:hover {
+  width: 40px;
+  height: 40px;
+}
+
+.pet-page-edit-pet-btn {
+  width: 26px;
+  height: 26px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.pet-page-edit-pet-icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+
+.pet-page-edit-pet-icon:hover {
+  width: 26px;
+  height: 26px;
+}
+
+@media only screen and (max-width: 540px) {
+  .card-pet-page-container {
+    width: 90%;
+  }
+}

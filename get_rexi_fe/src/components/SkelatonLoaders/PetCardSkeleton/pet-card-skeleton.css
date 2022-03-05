@@ -1,0 +1,25 @@
+.pet-card-image-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  height: 200px;
+}
+
+.pet-card-name-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 25%;
+  height: 20px;
+}
+
+.pet-card-btn-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 15%;
+  height: 25px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

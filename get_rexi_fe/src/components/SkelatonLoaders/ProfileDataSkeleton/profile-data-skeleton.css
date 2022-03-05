@@ -1,0 +1,31 @@
+.profile-data-bio-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  height: 200px;
+}
+
+.profile-data-text-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 70%;
+  height: 15px;
+}
+
+.profile-data-name-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 40%;
+  height: 35px;
+}
+
+.profile-data-icon-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 25%;
+  height: 80px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}

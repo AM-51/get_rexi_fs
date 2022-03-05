@@ -1,0 +1,57 @@
+.modal-add-pet-btn-container {
+  min-width: 62px;
+  height: 42px;
+}
+
+.modal-add-pet-btn {
+  min-width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.modal-add-pet-btn:hover {
+  min-width: 62px;
+  height: 42px;
+}
+
+.add-pet-input:focus {
+  outline: none;
+}
+
+.select-option-new-pet {
+  color: #3a3b83 !important;
+}
+
+.select-option-new-pet:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.option-style-new-pet {
+  color: #3a3b83 !important;
+}
+
+.add-image-btn {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.add-image-icon {
+  width: 26px;
+  height: 26px;
+}
+
+.add-image-icon:hover {
+  width: 28px;
+  height: 28px;
+}

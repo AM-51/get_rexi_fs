@@ -1,0 +1,36 @@
+.modal-login-btn-container {
+  min-width: 62px;
+  height: 42px;
+}
+
+.modal-login-btn {
+  min-width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #3a3b83;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.modal-login-btn:hover {
+  min-width: 62px;
+  height: 42px;
+}
+
+.signup-btn {
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.signup-btn:hover {
+  text-decoration-line: underline;
+}
+
+.login-input:focus {
+  outline: none;
+}

@@ -1,0 +1,33 @@
+.user-card-container {
+  height: 100px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 1;
+}
+
+.user-card-more-data-btn {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  color: #3a3b83;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.user-card-more-data-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.user-card-more-data-icon:hover {
+  width: 32px;
+  height: 32px;
+}
+
+@media only screen and (max-width: 740px) {
+  .email-title {
+    display: none;
+  }
+}
